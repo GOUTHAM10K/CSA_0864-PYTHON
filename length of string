@@ -1,0 +1,3 @@
+x="stranger"
+l=len(x)
+print(l)

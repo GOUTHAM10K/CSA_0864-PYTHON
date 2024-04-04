@@ -1,0 +1,2 @@
+X="HELLOWORLD"[::-1]
+print(X)

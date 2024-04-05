@@ -1,0 +1,5 @@
+num=30
+i=1
+for i in range(i,n,1) :
+  if(i%5==0 and i%10!=0):
+     print(i)

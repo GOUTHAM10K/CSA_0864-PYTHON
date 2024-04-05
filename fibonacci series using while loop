@@ -1,0 +1,9 @@
+num=5
+first=0
+i=0
+second=1
+while(first<=num)
+print(first)
+  next=first+second
+  first=second
+  second=next

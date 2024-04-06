@@ -1,0 +1,12 @@
+def bubble_sort(arr)
+ n=len(arr)
+ for i in range(n):
+   for j in range(0,n-i-1):
+      if arr[j]>a[j+1]:
+        temp=arr[j]
+        a[j]=a[j+1]
+        a[j+1]=temp
+   return arr
+arr=[64,34,25,12,22,11,90]
+sorted_Arr=bubble_sort(arr)
+print("sorted array:",sorted_Arr)

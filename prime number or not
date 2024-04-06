@@ -1,0 +1,7 @@
+n=int(input("enter the number"))
+for i in range(2,n,1):
+  if n%i==0 :
+   print("it num is not prime")
+   break
+else :
+ print("it is a prime number")

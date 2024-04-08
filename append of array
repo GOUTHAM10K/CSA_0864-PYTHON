@@ -1,0 +1,9 @@
+import array
+l=[6,4,7,5,9]
+a=array.array('i',[])
+a.fromlist(l)
+print(a)
+a.append(8)
+print(a)
+
+

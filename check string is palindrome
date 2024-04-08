@@ -1,0 +1,11 @@
+temp=""
+word=input("enter the string:")
+i=len(word)
+while(i>0):
+    temp=temp+word[i-1]
+    i=i-1
+print("the reversed string is:",temp)
+if temp==word :
+ print("palindrome")
+else :
+ print("not palindrome")

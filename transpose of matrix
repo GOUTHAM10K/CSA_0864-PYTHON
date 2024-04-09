@@ -1,0 +1,7 @@
+X = [[2,7,3],[4 ,5,6],[2,8,1]]
+result = [[0,0,0],[0,0,0],[0,0,0]]
+for i in range(len(X)):
+  for j in range(len(X[0])):
+            result[i][j]=X[j][i]
+for r in result:
+   print(r)
